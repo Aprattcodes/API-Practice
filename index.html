@@ -3,13 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Me Some Tacos</title>
+    <title>Show Me The Tacos!</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Find Me Some Tacos!</h1>
+    <h1>Show Me Some Tacos!</h1>
+    <div class="container">
+        <h2>Look for delicious tacos!</h2>
+        <div id="searchWrapper">
+            <input 
+                type="text"
+                name="search"
+                id="searchBar"
+                onkeyup="search_taco()"
+                placeholder="buchar tacos por favor 🌮">
+            <button>Search</button>   
+            <ol id='list'> 
+                <li class="taco-types">Carne Asada</li> 
+                <li class="taco-types">Beer Battered Fish</li> 
+                <li class="taco-types">Chicken</li> 
+                <li class="taco-types">Fish</li> 
+                <li class="taco-types">Gorilla</li> 
+                <li class="taco-types">BBQ Duck</li> 
+                <li class="taco-types">Aligator</li> 
+                <li class="taco-types">Whale</li> 
+                <li class="taco-types">Kangaroo</li> 
+                <li class="taco-types">Avocado</li> 
+                <li class="taco-types">Horse</li> 
+            </ol>  
+        </div>
+    </div>
 
-
-    <script href="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
